@@ -1,3 +1,98 @@
-div {
-    color:rgb(117, 0, 144);
+body {
+  background: linear-gradient(-45deg, #182f4a, #010307);
+  margin: 0;
+  padding: 24px;
+}
+
+.mm {
+    color: slateblue;
+    font-size: 78px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    font-family: Verdana;
+    text-align: center;
+}
+
+h1 {
+    color: dodgerblue;
+    font-size: 38px;
+    padding-bottom: 30px;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: dodgerblue;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+h3 {
+    color: dodgerblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+p {
+    color:aliceblue;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.openingtext {
+    text-align: center;
+}
+
+.voorbeeld {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    color:aliceblue;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.linkjes {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.linkjes a {
+  background: rgb(225, 0, 255);
+  border: 1px solid rgb(255, 0, 255);
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  padding: 14px;
+  margin: 10px;
+}
+
+.linkjes a:hover {
+  background: aliceblue;
+  border: 1px solid slateblue;
+  color: slateblue;
+}
+
+.border {
+    border: 3px solid aliceblue;
+    padding-bottom: 30px;
+    border-radius: 17px;
 }
